@@ -4,6 +4,10 @@
   <groupId>org.example</groupId>
   <artifactId>ms-spring-gateway</artifactId>
   <version>1.0-SNAPSHOT</version>
-  <name>Archetype - ms-spring-gateway</name>
+    <packaging>pom</packaging>
+    <name>Archetype - ms-spring-gateway</name>
   <url>http://maven.apache.org</url>
+    <modules>
+        <module>aluguel-service</module>
+    </modules>
 </project>
